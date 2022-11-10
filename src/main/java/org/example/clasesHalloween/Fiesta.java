@@ -40,7 +40,7 @@ public class Fiesta {
 
     public void setCostosAlimentos(double costosAlimentos) {
 
-        if(costosAlimentos<0){
+        if(costosAlimentos>0){
             this.costosAlimentos = costosAlimentos;
         }else{
             System.out.println("No se aceptan costos negativos");
@@ -53,7 +53,7 @@ public class Fiesta {
     }
 
     public void setCostosBebidas(double costosBebidas) {
-        if(costosBebidas<0){
+        if(costosBebidas>0){
             this.costosBebidas = costosBebidas;
         }else{
             System.out.println("No se aceptan costos negativos");
@@ -65,7 +65,7 @@ public class Fiesta {
     }
 
     public void setCostosLugar(double costosLugar) {
-        if(costosLugar<0){
+        if(costosLugar>0){
             this.costosLugar = costosLugar;
         }else{
             System.out.println("No se aceptan costos negativos");
@@ -77,7 +77,7 @@ public class Fiesta {
     }
 
     public void setCostosEquipos(double costosEquipos) {
-        if(costosEquipos<0){
+        if(costosEquipos>0){
             this.costosEquipos = costosEquipos;
         }else{
             System.out.println("No se aceptan costos negativos");

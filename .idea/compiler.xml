@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Hallowen" />
         <module name="hallowenuribe" />
+        <module name="proyecto1uribe" />
       </profile>
     </annotationProcessing>
   </component>
